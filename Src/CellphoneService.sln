@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CellphoneService.Model", "CellphoneService.Model\CellphoneService.Model.csproj", "{3434DA15-8383-4FA5-8C9A-C5933B7B3015}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CellphoneService.Repository", "CellphoneService.Repository\CellphoneService.Repository.csproj", "{3BFA8136-7064-4225-8AFD-F0F8BDBAF0B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CellphoneService.Repository.DbStorage", "CellphoneService.Repository.DbStorage\CellphoneService.Repository.DbStorage.csproj", "{88EB2678-AFAC-40CE-8621-6696E341432C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{3DB47363-5F1A-47BD-B18F-CA81D122DA6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{25AC9EC5-A98F-4918-A8D0-FA55152FE24E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{2BEC29D0-38D2-4DBF-B202-29AB73436A9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CellphoneService.Rest", "CellphoneService.Rest\CellphoneService.Rest.csproj", "{A7695D5E-8573-4432-93B9-6439A2012AC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3434DA15-8383-4FA5-8C9A-C5933B7B3015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3434DA15-8383-4FA5-8C9A-C5933B7B3015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3434DA15-8383-4FA5-8C9A-C5933B7B3015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3434DA15-8383-4FA5-8C9A-C5933B7B3015}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BFA8136-7064-4225-8AFD-F0F8BDBAF0B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BFA8136-7064-4225-8AFD-F0F8BDBAF0B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BFA8136-7064-4225-8AFD-F0F8BDBAF0B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BFA8136-7064-4225-8AFD-F0F8BDBAF0B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88EB2678-AFAC-40CE-8621-6696E341432C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88EB2678-AFAC-40CE-8621-6696E341432C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88EB2678-AFAC-40CE-8621-6696E341432C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88EB2678-AFAC-40CE-8621-6696E341432C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7695D5E-8573-4432-93B9-6439A2012AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7695D5E-8573-4432-93B9-6439A2012AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7695D5E-8573-4432-93B9-6439A2012AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7695D5E-8573-4432-93B9-6439A2012AC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3434DA15-8383-4FA5-8C9A-C5933B7B3015} = {25AC9EC5-A98F-4918-A8D0-FA55152FE24E}
+		{3BFA8136-7064-4225-8AFD-F0F8BDBAF0B6} = {3DB47363-5F1A-47BD-B18F-CA81D122DA6D}
+		{88EB2678-AFAC-40CE-8621-6696E341432C} = {3DB47363-5F1A-47BD-B18F-CA81D122DA6D}
+		{A7695D5E-8573-4432-93B9-6439A2012AC6} = {2BEC29D0-38D2-4DBF-B202-29AB73436A9B}
+	EndGlobalSection
+EndGlobal
